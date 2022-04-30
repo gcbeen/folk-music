@@ -1,49 +1,52 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+	<view class="index-wrapper">
 		<view>
-			<text class="title">{{title}}</text>
+			<view class="status_bar"></view>
+			<!-- tabbar对应页面 -->
+			<Home v-show="current===1"/>
+			<sq-my v-show="current===2" ></sq-my>
 		</view>
+		
+		<!-- <sq-tabbar @change="onTabbarChange"></sq-tabbar> -->
 	</view>
 </template>
 
 <script>
+	import Home from '../home/index';
+	
 	export default {
+		components: {
+			Home
+		},
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello no',
+				current: 1,
 			}
 		},
 		onLoad() {
-
+			console.log("hello");
+			// uni.request({
+			// 	url:'http://musicapi.leanapp.cn/search/hot',
+			// 	method:'GET',
+			// 	success(res) {
+			// 		console.debug(res);
+			// 	}
+			// })
 		},
 		methods: {
-
+			/**
+			 * 底部tab切换
+			 */
+			onTabbarChange(index){
+				this.current = index;
+			},
 		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+<style scoped>
+	.index-wrapper{
+		position: relative;
 	}
 </style>
