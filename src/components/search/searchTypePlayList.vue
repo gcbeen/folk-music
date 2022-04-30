@@ -7,7 +7,7 @@
         :arrow="false"
         @click="openPlaylistPage(item.id, 1)"
         v-for="item in result.playlists"
-        :key="item.coverImgUrl"
+        :key="item.name + item.id"
       >
         <view slot="icon" style="margin-right: 20rpx">
           <u-image
