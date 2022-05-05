@@ -11,7 +11,7 @@
         @tap="onClickItem(item)"
         :arrow="false"
         v-for="item in result.songs"
-        :key="item.name + item.id"
+        :key="item.id"
       >
         <view slot="title">
           <view style="font-size: 32rpx; color: #000000">{{ item.name }}</view>

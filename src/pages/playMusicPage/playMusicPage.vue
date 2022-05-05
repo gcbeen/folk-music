@@ -60,7 +60,7 @@
             >
               <view
                 v-for="(item, index) in audioLrc.ms"
-                :key="item.c + index"
+                :key="index"
                 :class="{ 'lrc-active': index === showlrcIndex }"
                 style="
                   font-size: 32rpx;

@@ -10,7 +10,7 @@
         :border="false"
         @click="openPlayVideoPage(item.id, 1)"
         v-for="item in mvList"
-        :key="item"
+        :key="item.id"
         margin="0 0 20rpx 0"
         border-radius="0"
         :body-style="{ padding: 0 }"

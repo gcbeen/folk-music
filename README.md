@@ -8,27 +8,6 @@
 GitHub 网易云音乐接口开源项目
 [网易云音乐接口 Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-# 更新日志
-
-- 2021-10-28
-
-1. 推荐一个可用的网易云接口地址： [https://music-api.heheda.top/](https://music-api.heheda.top/)
-
----
-
-- 2021-03-30
-
-1. 更新 README.md 文档
-
----
-
-- 2021-03-30
-
-1. 去除音乐播放界面的图片旋转效果（uniapp 动画 api 好像很消耗性能）
-2. 添加原生 app 视频播放界面 nvue 文件支持
-3. 打包成安卓 app,并支持扫码下载
-4. 优化一些细节
-
 # 已验证运行的平台
 
 <table>
@@ -53,16 +32,6 @@ GitHub 网易云音乐接口开源项目
 		<td>没有苹果设备</td>
 	</tr>
 </table>
-
-# 安卓 app 下载
-
-项目已经打包成安卓 app，在当前项目的 doc 文件夹下，名字就叫 Music.apk。只做演示用，不会获取你的任何信息。
-[点击这里下载 Music.apk](https://gitee.com/iszsq/doItMusic/raw/master/doc/doItMusic.apk)
-
-## 扫码下载
-
-![app](./doc/Music-android-qrcode.png)
-
 # 项目介绍
 
 ### 主要特点如下：
@@ -84,7 +53,7 @@ GitHub 网易云音乐接口开源项目
 
 # 技术点
 
-1. sass - HBuilder X 安装 sass 编译
+1. sass - npm install sass
 2. uView - 一套不错的兼容多端的 ui 框架
 3. vuex 状态监听
 4. 音乐播放，uniapp animation 动画
@@ -97,11 +66,7 @@ GitHub 网易云音乐接口开源项目
 
 ## H5 演示地址
 
-pc 端查看按 F12。[演示地址](http://iszsq.gitee.io/doitmusic)
-
-## 扫码访问
-
-![code](./doc/h5-QRCode.png)
+pc 端查看按 F12。[演示地址](https://folk-music.vercel.app/#/)
 
 # 项目预览
 
@@ -167,16 +132,5 @@ pc 端查看按 F12。[演示地址](http://iszsq.gitee.io/doitmusic)
 		<td><img src="./doc/images/视频-评论.png"></td>
 	</tr>
 </table>
+# 
 
----
-
-# 安装运行
-
-参考安装文档：[https://blog.csdn.net/qq_40826978/article/details/114971270](https://blog.csdn.net/qq_40826978/article/details/114971270)
-
-```
-git clone https://gitee.com/iszsq/doItMusic.git
-cd doItMusic
-npm install
-用 HBuilder X 导入项目，在工具内运行和打包
-```

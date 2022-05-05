@@ -91,11 +91,11 @@
 			>
 				<u-cell-item 
 					title-width="600" 
-					:arrow="false" v-for="item in songs" 
-					:key="item.name + item.id"
+					:arrow="false" v-for="(item, index) in songs" 
+					:key="(item.id)"
 				>
 					<view slot="title" @tap="onClickSongItem(item)" >
-						<view style="font-size: 32rpx;color: #000000;">{{item.name}}</view>
+						<view style="font-size: 32rpx;color: #000000;">{{item.name}} - {{item.id}} </view>
 						<view style="font-size: 26rpx;color:#999;">
 							{{item.ar ? item.ar[0].name : '未知'}} 
 						</view>
@@ -223,7 +223,7 @@
 			 * @param {Object} item
 			 */
 			onClickSongItem(item){
-				console.log(item, 'item');
+				console.log(item.id, 'item');
 				let params = {
 					id: item.id,
 					name: item.name,
