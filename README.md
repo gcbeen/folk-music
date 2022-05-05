@@ -76,61 +76,77 @@ pc 端查看按 F12。[演示地址](https://folk-music.vercel.app/#/)
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/首页-热门MV.png"></td>
-		<td><img src="./doc/images/首页.png"></td>
-		<td><img src="./doc/images/首页-我的.png"></td>
+		<td ><img src="./folk_music_img/home1.jpg"></td>
+		<td>
+      <img src="./folk_music_img/home2.jpg">
+    </td>
+		<td><img src="./folk_music_img/home3.jpg"></td>
 	</tr>
+</table>
+
+## 热门 与 我的
+
+<table >
+	<tr>
+    <td><img src="./folk_music_img/hot.jpg"></td>
+    <td><img src="./folk_music_img/me.jpg"></td>
+  </tr>
 </table>
 
 ## 搜索
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/搜索.png"></td>
-		<td><img src="./doc/images/搜索-综合结果.png"></td>
+		<td ><img src="./folk_music_img/search.jpg"></td>
+		<td><img src="./folk_music_img/search_result.jpg"></td>
+    <td ><img src="./folk_music_img/search_result2.jpg"></td>
+  </tr>
+  <tr>
+		<td><img src="./folk_music_img/search_result3.jpg"></td>
+		<td><img src="./folk_music_img/search_result4.jpg"></td>
+		<td></td>
 	</tr>
 </table>
 
-<table >
-	<tr>
-		<td ><img src="./doc/images/搜索-单曲.png"></td>
-		<td><img src="./doc/images/搜索-视频.png"></td>
-	</tr>
-</table>
 
 ## 歌手介绍页
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/歌手.png"></td>
+		<td ><img src="./folk_music_img/singer.jpg"></td>
+    <td ><img src="./folk_music_img/singer2.jpg"></td>
 	</tr>
 </table>
+
 
 ## 专辑/歌单
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/专辑.png"></td>
-		<td><img src="./doc/images/专辑-评论.png"></td>
+    <td ><img src="./folk_music_img/song_list.jpg"></td>
+    <td ><img src="./folk_music_img/song_list2.jpg"></td>
 	</tr>
 </table>
+
 
 ## 音乐播放页
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/音乐.png"></td>
-		<td><img src="./doc/images/音乐-歌词.png"></td>
+    <td ><img src="./folk_music_img/music_play.jpg"></td>
+    <td ><img src="./folk_music_img/music_play2.jpg"></td>
 	</tr>
 </table>
+
 
 ## 视频播放页
 
 <table >
 	<tr>
-		<td ><img src="./doc/images/视频.png"></td>
-		<td><img src="./doc/images/视频-评论.png"></td>
+    <td ><img src="./folk_music_img/movie_play.jpg"></td>
+    <td ><img src="./folk_music_img/movie_play2.jpg"></td>
 	</tr>
 </table>
+
 # 
 
